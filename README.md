@@ -23,7 +23,12 @@ Here `ITERATIONS` is the number of iterations, for example, 1000000.
 
 This will read and write `/scratch/PROJECT/type-ratio-data`.
 
+Author
+------
+
+Jukka Suomela, https://jukkasuomela.fi/
+
 Acknowledgments
 ---------------
 
-The authors wish to acknowledge CSC – IT Center for Science, Finland, for computational resources.
+The author wishes to acknowledge CSC – IT Center for Science, Finland, for computational resources.
