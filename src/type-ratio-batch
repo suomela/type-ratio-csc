@@ -7,8 +7,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
 #SBATCH --array=1-_TOTAL_
-#SBATCH --output=/scratch/_PROJECT_/type-ratio-log/%A_%a_%j.out
-#SBATCH --error=/scratch/_PROJECT_/type-ratio-log/%A_%a_%j.err
+#SBATCH --output=/scratch/_PROJECT_/type-ratio-log/%A_%a.out
+#SBATCH --error=/scratch/_PROJECT_/type-ratio-log/%A_%a.err
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
