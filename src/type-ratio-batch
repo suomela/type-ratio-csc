@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=type-ratio
+#SBATCH --account=_PROJECT_
+#SBATCH --time=01:00:00
+#SBATCH --mem-per-cpu=1G
+#SBATCH --partition=large
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-_TOTAL_
+
+export OMP_NUM_THREADS=1
+
+cd /scratch/_PROJECT_
+/projappl/_PROJECT_/type-ratio-csc/type-ratio/build/type-ratio $SLURM_ARRAY_TASK_ID _TOTAL_
