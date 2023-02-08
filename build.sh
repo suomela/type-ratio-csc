@@ -13,6 +13,9 @@ total="$2"
 git submodule init
 git submodule update
 
+mkdir -p "/scratch/$project/type-ratio-data/in"
+mkdir -p "/scratch/$project/type-ratio-log"
+
 cat src/type-ratio-batch |
     sed "s/_PROJECT_/$project/g" |
     sed "s/_TOTAL_/$total/g" > type-ratio-batch

@@ -5,10 +5,12 @@
 #SBATCH --mem-per-cpu=1G
 #SBATCH --partition=large
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=2
 #SBATCH --array=1-_TOTAL_
+#SBATCH --output=/scratch/_PROJECT_/type-ratio-log/%A_%a_%j.out
+#SBATCH --error=/scratch/_PROJECT_/type-ratio-log/%A_%a_%j.err
 
-export OMP_NUM_THREADS=1
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 cd /scratch/_PROJECT_
 /projappl/_PROJECT_/type-ratio-csc/type-ratio/build/type-ratio "$1" "$SLURM_ARRAY_TASK_ID" _TOTAL_
