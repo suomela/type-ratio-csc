@@ -3,7 +3,7 @@ TypeRatio on CSC
 
 This repository contains scripts for running the [TypeRatio](https://github.com/suomela/type-ratio) tool on [CSC](https://www.csc.fi) computers. This is used for computations in the following article:
 
-- Tanja Säily, Martin Hilpert and Jukka Suomela (to appear). "New approaches to investigating change in derivational productivity: Gender and internal factors in the development of -ity and -ness, 1600–1800." Patricia Ronan, Theresa Neumaier, Lisa Westermayer, Andreas Weilinghoff & Sarah Buschfeld (eds.), *Crossing boundaries through corpora: Innovative approaches to corpus linguistics* (Studies in Corpus Linguistics). Amsterdam: John Benjamins.
+- Tanja Säily, Martin Hilpert and Jukka Suomela (to appear). "New approaches to investigating change in derivational productivity: Gender and internal factors in the development of *-ity* and *-ness*, 1600–1800." Patricia Ronan, Theresa Neumaier, Lisa Westermayer, Andreas Weilinghoff & Sarah Buschfeld (eds.), *Crossing boundaries through corpora: Innovative approaches to corpus linguistics* (Studies in Corpus Linguistics). Amsterdam: John Benjamins.
 
 Usage on CSC Puhti
 ------------------
